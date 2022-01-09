@@ -75,3 +75,25 @@ Body {
 section {
     padding: 60px;
 }
+
+.hero {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.hero h2 {
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.hero-img img {
+width: 451px;
+height: 507px;
+}
+
