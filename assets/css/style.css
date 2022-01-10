@@ -100,17 +100,19 @@ height: 507px;
 .work {
     background-color: var(--secondary-color);
 }
-.work h2 {
+.work h2, .contact h2, .about h2 {
     color: var(--primary-color);
     font-size: 52px;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
 }
 
-.work div {
+/* .work div {
     display: flex;
     flex-wrap: wrap;
-}
+} */
+
 .app-one {
 display: flex;
 justify-content: center;
@@ -133,4 +135,19 @@ small.apps {
 .app-two img, .app-three img {
 width: 450px;
 height: 225px;
+}
+
+.about h2 {
+    color: var(--secondary-color);
+}
+
+.contact {
+    background-color: var(--secondary-color);
+}
+
+.contact a {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.75vw;
+    border-bottom: none;
 }
