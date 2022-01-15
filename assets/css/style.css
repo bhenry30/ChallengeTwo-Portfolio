@@ -18,13 +18,11 @@ nav {
     margin: 7px 0;
     padding: 20px 40px;
     background-color: var(--primary-color);
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
-    z-index: 1;
     top: 0;
-    left: 0;
+    z-index: 1;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .15);
 }
 
@@ -108,46 +106,56 @@ height: 507px;
     justify-content: center;
 }
 
-/* .work div {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-.app-one {
+.container {
 display: flex;
-justify-content: center;
-padding: 50px;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
 }
 
-.app-one a {
-max-width: 80%;
-max-height: auto;
+.box {
+border: 3px solid lightgray;
+width: 40%;
+height: auto;
+margin: 30px;
+flex: 1;
 }
 
-.app-one img {
+#big-box {
+width: 100vw;
+flex: 1;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.box img {
 max-width: 100%;
-max-height: auto; 
-}
-
-small.apps {
-    justify-items: center;
-}
-.app-two img, .app-three img {
-width: 450px;
-height: 225px;
+max-height: 100%;
 }
 
 .about h2 {
     color: var(--secondary-color);
 }
 
+
+.bio {
+padding: 30px;
+width: 50%;
+}
+
 .contact {
     background-color: var(--secondary-color);
 }
 
-.contact a {
+.contact a, h3 {
     color: var(--primary-color);
     font-weight: bold;
     font-size: 1.75vw;
     border-bottom: none;
+}
+
+.contact-info {
+    margin: 30px;
 }
