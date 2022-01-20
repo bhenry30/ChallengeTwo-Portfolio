@@ -89,9 +89,13 @@ section {
 .hero-text {
     font-size: 28px;
     padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .hero-img img {
+display: flex;
+flex-wrap: wrap;
 width: 451px;
 height: 507px;
 }
@@ -105,26 +109,6 @@ height: 507px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
-}
-
-.container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-padding: 30px;
-}
-
-.box {
-width: 35%;
-height: auto;
-margin: 50px;
-}
-
-.box-1 {
-padding-top: 50px;
-width: 70vw;
-margin-left: 11.7%;
 }
 
 .box img, .box-1 img {
